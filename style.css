@@ -80,7 +80,7 @@ h1{
   background-color: #3498db;         
   border-radius: 50%;
   
-  animation: bounce 2.4s infinite ease-in-out both; 
+  animation: bounce 2.8s infinite ease-in-out both; 
 }
 
 .dot:nth-child(1) { animation-delay: -0.68s; }
@@ -98,6 +98,6 @@ h1{
 
 /* Hide when page loads */
 .loaded #page-loader {
-  opacity: 0;
+  opacity: 0.6;
   visibility: ;
 }
