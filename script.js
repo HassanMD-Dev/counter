@@ -12,8 +12,11 @@ plusBtn.addEventListener("click", () => {
 minusBtn.addEventListener("click", () => {
     count--;
     output.innerText = count;
-})
+});
 reset.addEventListener("click", () => {
     count = 0;
     output.innerText = count;
-})
+});
+window.addEventListener("load", function() {
+      document.body.classList.add("loaded");
+});
