@@ -62,7 +62,7 @@ h1{
   top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background-color: #ffffff;     /* ← CHANGE THIS COLOR */
+  background-color: #000;   
   /* Examples: #000000 (black), #1a1a1a (dark), #f8f9fa (light gray), #0f5132 (dark green), etc. */
   
   display: flex;
@@ -83,7 +83,7 @@ h1{
   height: 18px;
   background-color: #3498db;     /* ← CHANGE DOT COLOR HERE */
   border-radius: 50%;
-  animation: bounce 1.8s infinite ease-in-out both;
+  animation: bounce 2.0s infinite ease-in-out both;
 }
 
 .dot:nth-child(1) { animation-delay: -0.32s; }
