@@ -4,6 +4,7 @@ body{
     margin: 0;
     background-color: #88cf17;
     text-align: center; /* centers h1 */
+    visibility: visible;
 }
 
 h1{
@@ -19,7 +20,6 @@ h1{
     border-radius: 20px;
     background-color: #fff;
     margin: 40px auto; /* centered container */
-    visibility: collapse;
 }
 
 #output{
