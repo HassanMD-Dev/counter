@@ -8,7 +8,6 @@ plusBtn.addEventListener("click", () => {
     count++;
     output.innerText = count;
 });
-
 minusBtn.addEventListener("click", () => {
     count--;
     output.innerText = count;
