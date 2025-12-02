@@ -101,6 +101,6 @@ h1{
 /* Hide when page loads */
 .loaded #page-loader {
   opacity: 0;
-  transition: opacity 0.8s ease-out, visibility 0s 0.8s;  /* visibility delay */
+  transition: opacity 0.8s ease-out, visibility 0s 1.0s;  /* visibility delay */
   visibility: hidden;
 }
