@@ -67,7 +67,7 @@ h1{
   align-items: center;
   z-index: 9999;
   opacity: 1;
-  transition: opacity 0.8s ease-out;   /* Only fade opacity */
+  transition: opacity 1.0s ease-out;   /* Only fade opacity */
   pointer-events: none;           
 }
 
