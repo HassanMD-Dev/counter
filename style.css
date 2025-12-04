@@ -91,5 +91,4 @@ h1{
 .loaded #page-loader {
   opacity: 0;
   transition: opacity 2.2s ease-out, visibility 0s 2.4s;  /* visibility delay */
-  visibility: ;
 }
