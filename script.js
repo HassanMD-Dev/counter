@@ -4,8 +4,7 @@ let plusBtn = document.querySelector(".plus");
 let minusBtn = document.querySelector(".minus");
 let output = document.querySelector("#output");
 let reset = document.querySelector("#reset");
-
-animate(plusBtn, { rotate: 360 });
+animate(".plus", { rotate: 360 });
 
 plusBtn.addEventListener("click", () => {
     count++;
