@@ -4,7 +4,7 @@ let plusBtn = document.querySelector(".plus");
 let minusBtn = document.querySelector(".minus");
 let output = document.querySelector("#output");
 let reset = document.querySelector("#reset");
-const boxes = document.querySelectorAll(". container");
+const boxes = document.querySelectorAll(".container");
 
 animate(boxes, { rotate: 360 });
 
