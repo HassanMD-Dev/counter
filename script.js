@@ -1,4 +1,4 @@
-import { motion, animate } from 'https://cdn.jsdelivr.net/npm/motion@11.11.13/+esm';
+
 let count = 0;
 let plusBtn = document.querySelector(".plus");
 let minusBtn = document.querySelector(".minus");
