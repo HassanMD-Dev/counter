@@ -1,12 +1,8 @@
-//import { animate } from "motion";
 let count = 0;
 let plusBtn = document.querySelector(".plus");
 let minusBtn = document.querySelector(".minus");
 let output = document.querySelector("#output");
 let reset = document.querySelector("#reset");
-const boxes = document.querySelectorAll(".container");
-
-animate(boxes, { rotate: 360 });
 
 plusBtn.addEventListener("click", () => {
     count++;
