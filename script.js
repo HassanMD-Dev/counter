@@ -4,11 +4,12 @@ let plusBtn = document.querySelector(".plus");
 let minusBtn = document.querySelector(".minus");
 let output = document.querySelector("#output");
 let reset = document.querySelector("#reset");
-animate(".plus", { rotate: 360 });
 
 plusBtn.addEventListener("click", () => {
-    count++;
-    output.innerText = count;
+  count++;
+  output.innerText = count;
+  animate(plusBtn, { scale: 1.2 }, { duration: 0.2 });
+  animate(output, { scale: 1.1 }, { duration: 0.2 });
 });
 minusBtn.addEventListener("click", () => {
     count--;
